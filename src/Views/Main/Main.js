@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Select from '../../components/Select/Select';
 import Render from '../../components/Render/Render';
+import './Main.css';
 
 export default function Main() {
   const [head, setHead] = useState('');
