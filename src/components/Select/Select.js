@@ -49,7 +49,6 @@ export default function Select({ head, setHead, middle, setMiddle, bottom, setBo
             <option value="blue">Blue Jeans</option>
           </select>
         </label>
-        <Catchphrase />
       </div>
     </div>
   );
