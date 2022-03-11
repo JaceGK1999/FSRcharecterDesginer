@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Render({ head, middle, bottom }) {
+export default function Render({ head, middle, bottom, saying }) {
   return (
     <div>
       <div>
@@ -12,7 +12,7 @@ export default function Render({ head, middle, bottom }) {
       <div>
         <img src={`../../../${process.env.PUBLIC_URL}/assets/${bottom}-pants.png`} />
       </div>
-      <div className="phrase">test phrase</div>
+      <div className="phrase">{`${saying}`}</div>
     </div>
   );
 }
