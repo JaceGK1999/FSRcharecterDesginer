@@ -1,15 +1,14 @@
 import React from 'react';
 
-export default function Render({ head, setHead }) {
+export default function Render({ head }) {
   return (
     <div>
       <div>
-        <leftHead head={head} setHead={setHead} />
         {head}
-        <img src={`../../${process.env.PUBLIC_URL}assets/${head}-head.png`} />
+        <img src={`../../../${process.env.PUBLIC_URL}/assets/${head}-head.png`} />
       </div>
-      {/* <image url={`../../${process.env.PUBLIC_URL}assets/${value}-middle.png`} /> */}
-      {/* <image url={`../../${process.env.PUBLIC_URL}assets/${value}-pants.png`} /> */}
+      {/* <image url={`../../../${process.env.PUBLIC_URL}/assets/${torso}-middle.png`} /> */}
+      {/* <image url={`../../../${process.env.PUBLIC_URL}/assets/${pants}-pants.png`} /> */}
     </div>
   );
 }
