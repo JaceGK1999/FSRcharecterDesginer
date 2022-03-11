@@ -5,9 +5,9 @@ import './Main.css';
 import Catchphrase from '../../components/Catchphrase/Catchphrase';
 
 export default function Main() {
-  const [head, setHead] = useState('');
-  const [middle, setMiddle] = useState('');
-  const [bottom, setBottom] = useState('');
+  const [head, setHead] = useState('bird');
+  const [middle, setMiddle] = useState('blue');
+  const [bottom, setBottom] = useState('leg');
   const [saying, setSaying] = useState('');
   const [sayingArray, setSayingArray] = useState([]);
   return (

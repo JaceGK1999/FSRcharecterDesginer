@@ -24,7 +24,11 @@ export default function Catchphrase({ saying, setSaying, sayingArray, setSayingA
         </button>
       </label>
       <div>
-        <ul></ul>
+        <ul>
+          {sayingArray.map((saying) => (
+            <li key={saying}>{saying}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
