@@ -1,4 +1,5 @@
 import React from 'react';
+import Catchphrase from '../Catchphrase/Catchphrase';
 
 export default function Select({ head, setHead, middle, setMiddle, bottom, setBottom }) {
   return (
@@ -48,11 +49,7 @@ export default function Select({ head, setHead, middle, setMiddle, bottom, setBo
             <option value="blue">Blue Jeans</option>
           </select>
         </label>
-        <label>
-          Add a catch phrase
-          <input className="catchphrase-input" />
-          <button className="catchphrase-button">Add</button>
-        </label>
+        <Catchphrase />
       </div>
     </div>
   );

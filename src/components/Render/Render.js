@@ -12,6 +12,7 @@ export default function Render({ head, middle, bottom }) {
       <div>
         <img src={`../../../${process.env.PUBLIC_URL}/assets/${bottom}-pants.png`} />
       </div>
+      <div className="phrase">test phrase</div>
     </div>
   );
 }
