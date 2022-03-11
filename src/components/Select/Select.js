@@ -1,9 +1,8 @@
 import React from 'react';
 
-export default function left(head, setHead) {
+export default function Select({ head, setHead }) {
   return (
     <div>
-      {' '}
       <div className="picker">
         <label>
           Head

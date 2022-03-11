@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Right(head, setHead) {
+export default function Render({ head, setHead }) {
   return (
     <div>
       <div>
