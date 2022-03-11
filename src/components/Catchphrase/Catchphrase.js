@@ -1,13 +1,10 @@
 import React from 'react';
 
 export default function Catchphrase({ saying, setSaying, sayingArray, setSayingArray }) {
-  //   console.log(saying, 'saying');
   const saveCatchphrase = () => {
     setSayingArray((prevState) => [...prevState, saying]);
     setSaying('');
   };
-  //   console.log('props', props);
-  console.log(sayingArray, 'saying array');
   return (
     <div>
       <label>
@@ -33,11 +30,3 @@ export default function Catchphrase({ saying, setSaying, sayingArray, setSayingA
     </div>
   );
 }
-
-// catchphraseButton.addEventListener('click', () => {
-
-//     const newCatchphrase = catchphraseInput.value;
-//     catchphrases.push(newCatchphrase);
-//     displayCatchphrases();
-//     catchphraseInput.value = '';
-// });

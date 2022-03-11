@@ -1,5 +1,4 @@
 import React from 'react';
-import Catchphrase from '../Catchphrase/Catchphrase';
 
 export default function Select({ head, setHead, middle, setMiddle, bottom, setBottom }) {
   return (
