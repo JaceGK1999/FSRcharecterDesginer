@@ -1,12 +1,12 @@
 import React from 'react';
-import Left from '../../components/Left/Left';
-import Right from '../Right/Right';
+import Select from '../../components/Select/Select';
+import Render from '../../components/Render/Render';
 
 export default function Main() {
   return (
     <div>
-      <Left />
-      <Right />
+      <Select />
+      <Render />
     </div>
   );
 }
